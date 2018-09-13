@@ -1,0 +1,57 @@
+{
+  "groups": [
+  ],
+  "properties": [
+    {
+      "name": "id.generator.node-id",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "id.generator.base-timestamp",
+      "type": "java.lang.Long"
+    },
+    {
+      "name": "id.generator.sequence-bits",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "spring.mvc.http-log.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.application.log-ready-info",
+      "type": "java.lang.Boolean",
+      "defaultValue": true
+    },
+    {
+      "name": "uaa.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.mvc.enable-matrix-variables",
+      "type": "java.lang.Boolean",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.config.server.health.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": true
+    },
+    {
+      "name": "spring.cloud.config.server.health.token",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.cloud.config.server.consul.watch.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.mvc.response.verbose-enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": false
+    }
+  ]
+}
